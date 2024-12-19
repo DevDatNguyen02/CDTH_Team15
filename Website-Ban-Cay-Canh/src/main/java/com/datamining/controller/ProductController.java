@@ -29,19 +29,16 @@ public class ProductController {
     @Autowired
     CategoryService cService;
 
-    @RequestMapping("/{cate}")
-    public String list(Model model,@PathVariable("cate") Optional<String> cate) {
-        if(cate.isPresent()) {
-            String id = cService.findIdByUrlEquals(cate.get());
-            List<Product> list = pService.findByCategoryId(id);
+    @RequestMapping("/{cateId}")
+    public String list(Model model, @PathVariable("cateId") Optional<String> cateId) {
+        if (cateId.isPresent()) {
+            List<Product> list = pService.findByCategoryId(cateId.get());
             model.addAttribute("items", list);
         } else {
             List<Product> list = pService.findAll();
             model.addAttribute("items", list);
-            
         }
         List<Product> bestSale = pService.findTop5Seller();
-
         model.addAttribute("bestSale", bestSale);
         return "user/layout/index";
     }
