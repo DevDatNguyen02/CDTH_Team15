@@ -1,734 +1,502 @@
-<div class="pagetitle">
-    <h1>Dashboard</h1>
-    <nav>
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Dashboard</li>
-        </ol>
-    </nav>
-</div>
-<!-- End Page Title -->
+NQĐ
+vnmylove_17
+Trực tuyến
 
-<section class="section dashboard">
-    <div class="row">
-        <!-- Left side columns -->
-        <div class="col-lg-8">
-            <div class="row">
-                <!-- Sales Card -->
-                <div class="col-xxl-4 col-md-6">
-                    <div class="card info-card sales-card">
-                        <div class="filter">
-                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
-                                </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
-                            </ul>
-                        </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Sales <span>| Today</span></h5>
+Một NQĐ hoang dã đã xuất hiện. — 20:25 12/12/24
+NQĐ — 20:25 12/12/24
+Minh Nguyễn — 20:26 12/12/24
+Mọi người cùng chào mừng hmv1 nào! — 20:29 12/12/24
+Chào mừng, Em Lâm Nè. Chúng tôi hy vọng là bạn có mang theo pizza. — 20:31 12/12/24
+hmv1 — 20:49 12/12/24
+Hình ảnh
+đang tìm xem cái đoạn này nó dẫn vào đâu
+hmv1 — 21:05 12/12/24
+Vũ Hữu Minh:
+Thiết kế trang chủ, chi tiết sản phẩm, thống kê dữ liệu
+Vũ Đức Lâm:
+Thiết kế trang admin, đăng nhập
+Nguyễn Anh Minh
+Thiết kê trang giỏ hàng, thanh toán sản phẩm
+Nguyễn Quốc Đạt
+Làm báo cáo
+Chuẩn bị CSDL
+Thiết kế trang admin
+hmv1 — 21:42 12/12/24
+Hình ảnh
+hmv1 — 22:18 12/12/24
+qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=" + qrusername.value + " " + qrpassword.value;
+Minh Nguyễn — Hôm nay lúc 22:48
+Hình ảnh
+Hình ảnh
+Hình ảnh
+Hình ảnh
+Hình ảnh
+Minh Nguyễn — Hôm nay lúc 23:36
+DROP DATABASE IF EXISTS Spring2024_Final_Project;
 
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-cart"></i>
+CREATE DATABASE IF NOT EXISTS Spring2024_Final_Project
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_vietnamese_ci;
+... (Còn 9 KB)
+Mở rộng
+Spring2024_Final_Project_Database.sql
+59 KB
+Minh Nguyễn — Hôm nay lúc 23:44
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    Mở rộng
+    index.html
+    15 KB
+    <div class="pagetitle">
+        <h1>Dashboard</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Dashboard</li>
+                Mở rộng
+                dashboard.html
+                24 KB
+                sửa index với dashboard trong src > main > resources > static > admin
+                ﻿
+                <div class="pagetitle">
+                    <h1>Dashboard</h1>
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ol>
+                    </nav>
+                </div>
+                <!-- End Page Title -->
+
+                <section class="section dashboard">
+                    <div class="row">
+                        <!-- Left side columns -->
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <!-- Sales Card -->
+                                <div class="col-xxl-4 col-md-6">
+                                    <div class="card info-card sales-card">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Filter</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sales <span>| Hôm Nay</span></h5>
+
+                                            <div class="d-flex align-items-center">
+                                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                    <i class="bi bi-cart"></i>
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6>57</h6>
+                                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="ps-3">
-                                    <h6>145</h6>
-                                    <span class="text-success small pt-1 fw-bold">12%</span>
-                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                <!-- End Sales Card -->
+
+                                <!-- Revenue Card -->
+                                <div class="col-xxl-4 col-md-6">
+                                    <div class="card info-card revenue-card">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Filter</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Revenue <span>| Tháng Này</span>
+                                            </h5>
+
+                                            <div class="d-flex align-items-center">
+                                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                    <i class="bi bi-currency-dollar"></i>
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6>12.750.00 vnd</h6>
+                                                    <span class="text-success small pt-1 fw-bold">8%</span>
+                                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Revenue Card -->
+
+                                <!-- Customers Card -->
+                                <div class="col-xxl-4 col-xl-12">
+                                    <div class="card info-card customers-card">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Select</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Customers <span>| Năm Nay</span>
+                                            </h5>
+
+                                            <div class="d-flex align-items-center">
+                                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                    <i class="bi bi-people"></i>
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6>150</h6>
+                                                    <span class="text-danger small pt-1 fw-bold">12%</span>
+                                                    <span class="text-muted small pt-2 ps-1">decrease</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Customers Card -->
+
+                                <!-- Reports -->
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Filter</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reports <span>/Hôm Nay</span></h5>
+
+                                            <!-- Line Chart -->
+                                            <div id="reportsChart"></div>
+
+                                            <script>
+                                                document.addEventListener("DOMContentLoaded", () => {
+                                                    new ApexCharts(
+                                                        document.querySelector("#reportsChart"),
+                                                        {
+                                                            series: [
+                                                                {
+                                                                    name: "Sales",
+                                                                    data: [31, 40, 28, 51, 42, 82, 56],
+                                                                },
+                                                                {
+                                                                    name: "Revenue",
+                                                                    data: [11, 32, 45, 32, 34, 52, 41],
+                                                                },
+                                                                {
+                                                                    name: "Customers",
+                                                                    data: [15, 11, 32, 18, 9, 24, 11],
+                                                                },
+                                                            ],
+                                                            chart: {
+                                                                height: 350,
+                                                                type: "area",
+                                                                toolbar: {
+                                                                    show: false,
+                                                                },
+                                                            },
+                                                            markers: {
+                                                                size: 4,
+                                                            },
+                                                            colors: ["#4154f1", "#2eca6a", "#ff771d"],
+                                                            fill: {
+                                                                type: "gradient",
+                                                                gradient: {
+                                                                    shadeIntensity: 1,
+                                                                    opacityFrom: 0.3,
+                                                                    opacityTo: 0.4,
+                                                                    stops: [0, 90, 100],
+                                                                },
+                                                            },
+                                                            dataLabels: {
+                                                                enabled: false,
+                                                            },
+                                                            stroke: {
+                                                                curve: "smooth",
+                                                                width: 2,
+                                                            },
+                                                            xaxis: {
+                                                                type: "datetime",
+                                                                categories: [
+                                                                    "2018-09-19T00:00:00.000Z",
+                                                                    "2018-09-19T01:30:00.000Z",
+                                                                    "2018-09-19T02:30:00.000Z",
+                                                                    "2018-09-19T03:30:00.000Z",
+                                                                    "2018-09-19T04:30:00.000Z",
+                                                                    "2018-09-19T05:30:00.000Z",
+                                                                    "2018-09-19T06:30:00.000Z",
+                                                                ],
+                                                            },
+                                                            tooltip: {
+                                                                x: {
+                                                                    format: "dd/MM/yy HH:mm",
+                                                                },
+                                                            },
+                                                        }
+                                                    ).render();
+                                                });
+                                            </script>
+                                            <!-- End Line Chart -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="card recent-sales overflow-auto">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Filter</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Gần đây <span>| Hôm Nay</span>
+                                            </h5>
+
+                                            <table class="table table-borderless datatable">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Người Dùng</th>
+                                                    <th scope="col">Sản Phẩm</th>
+                                                    <th scope="col">Giá</th>
+                                                    <th scope="col">Trạng Thái</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row"><a href="#">#241</a></th>
+                                                    <td>Đỗ Phi Hùng</td>
+                                                    <td>
+                                                        <a href="#" class="text-primary">Cây Mai Vàng</a>
+                                                    </td>
+                                                    <td>1.000.000 vnd</td>
+                                                    <td>
+                                                        <span class="badge bg-success">Đã Hoàn Thành</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><a href="#">#240</a></th>
+                                                    <td>Bùi Nhật Trường</td>
+                                                    <td>
+                                                        <a href="#" class="text-primary">Cây Phong Lá Đỏ</a>
+                                                    </td>
+                                                    <td>6.000.000 vnd</td>
+                                                    <td><span class="badge bg-warning">Đang xử lý</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><a href="#">#239</a></th>
+                                                    <td>Nguyễn Bảo Như An</td>
+                                                    <td>
+                                                        <a href="#" class="text-primary">Cây Nguyệt Quế</a>
+                                                    </td>
+                                                    <td>2.000.000 vnd</td>
+                                                    <td>
+                                                        <span class="badge bg-success">Đã Hoàn Thành</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><a href="#">#238</a></th>
+                                                    <td>Nguyễn Hoàng Quốc Anh</td>
+                                                    <td>
+                                                        <a href="#" class="text-primar">Cây Hoa Giấy</a>
+                                                    </td>
+                                                    <td>3.000.000</td>
+                                                    <td><span class="badge bg-danger">Bị Từ Chối</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><a href="#">#237</a></th>
+                                                    <td>Liễu Hà Thu</td>
+                                                    <td>
+                                                        <a href="#" class="text-primary">Cây Mẫu Đơn Đỏ</a>
+                                                    </td>
+                                                    <td>1.500.000 vnd</td>
+                                                    <td>
+                                                        <span class="badge bg-success">Đã Hoàn Thành</span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Recent Sales -->
+
+                                <!-- Top Selling -->
+                                <div class="col-12">
+                                    <div class="card top-selling overflow-auto">
+                                        <div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <li class="dropdown-header text-start">
+                                                    <h6>Filter</h6>
+                                                </li>
+
+                                                <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                                <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                                <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="card-body pb-0">
+                                            <h5 class="card-title">Bán chạy <span>| Hôm Nay</span></h5>
+
+                                            <table class="table table-borderless">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Preview</th>
+                                                    <th scope="col">Sản Phẩm</th>
+                                                    <th scope="col">Giá</th>
+                                                    <th scope="col">Đã bán</th>
+                                                    <th scope="col">Tổng</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#"><img src="../admin/assets/img/product-1.jpg" alt="" /></a>
+                                                    </th>
+                                                    <td>
+                                                        <a href="#" class="text-primary fw-bold">Cây Mai Vàng</a>
+                                                    </td>
+                                                    <td>1.000.000 vnd</td>
+                                                    <td class="fw-bold">50</td>
+                                                    <td>50.000.000 vnd</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#"><img src="../admin/assets/img/product-2.jpg" alt="" /></a>
+                                                    </th>
+                                                    <td>
+                                                        <a href="#" class="text-primary fw-bold">Cây Nguyệt Quế</a>
+                                                    </td>
+                                                    <td>2.000.000 vnd</td>
+                                                    <td class="fw-bold">20</td>
+                                                    <td>40.000.000 vnd</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- End Sales Card -->
+                        <!-- End Left side columns -->
 
-                <!-- Revenue Card -->
-                <div class="col-xxl-4 col-md-6">
-                    <div class="card info-card revenue-card">
-                        <div class="filter">
-                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
-                                </li>
+                        <!-- Right side columns -->
+                        <div class="col-lg-4">
+                            <!-- Recent Activity -->
+                            <div class="card">
+                                <div class="filter">
+                                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                        <li class="dropdown-header text-start">
+                                            <h6>Filter</h6>
+                                        </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Revenue <span>| This Month</span>
-                            </h5>
-
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-currency-dollar"></i>
+                                        <li><a class="dropdown-item" href="#">Hôm Nay</a></li>
+                                        <li><a class="dropdown-item" href="#">Tháng Này</a></li>
+                                        <li><a class="dropdown-item" href="#">Năm Nay</a></li>
+                                    </ul>
                                 </div>
-                                <div class="ps-3">
-                                    <h6>$3,264</h6>
-                                    <span class="text-success small pt-1 fw-bold">8%</span>
-                                    <span class="text-muted small pt-2 ps-1">increase</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Revenue Card -->
 
-                <!-- Customers Card -->
-                <div class="col-xxl-4 col-xl-12">
-                    <div class="card info-card customers-card">
-                        <div class="filter">
-                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
-                                </li>
+                                <div class="card-body">
+                                    <h5 class="card-title">Hoạt động <span>| Hôm Nay</span></h5>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
-                            </ul>
-                        </div>
+                                    <div class="activity">
+                                        <div class="activity-item d-flex">
+                                            <div class="activite-label">32 min</div>
+                                            <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                            <div class="activity-content">
+                                                Hóa đơn số 241
+                                                <a href="#" class="fw-bold text-dark">Đã hoàn thành</a>
+                                            </div>
+                                        </div>
+                                        <!-- End activity item-->
 
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Customers <span>| This Year</span>
-                            </h5>
+                                        <div class="activity-item d-flex">
+                                            <div class="activite-label">56 min</div>
+                                            <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                            <div class="activity-content">
+                                                Hóa đơn số 239
+                                                <a href="#" class="fw-bold text-dark">Đã hoàn thành</a>
+                                            </div>
+                                        </div>
+                                        <!-- End activity item-->
 
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-people"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>1244</h6>
-                                    <span class="text-danger small pt-1 fw-bold">12%</span>
-                                    <span class="text-muted small pt-2 ps-1">decrease</span>
+                                        <div class="activity-item d-flex">
+                                            <div class="activite-label">2 hrs</div>
+                                            <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                            <div class="activity-content">
+                                                Hóa đơn số 238
+                                                <a href="#" class="fw-bold text-dark">Bị Từ Chối</a>
+                                            </div>
+                                        </div>
+                                        <!-- End activity item-->
+
+                                        <div class="activity-item d-flex">
+                                            <div class="activite-label">1 day</div>
+                                            <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                            <div class="activity-content">
+                                                Hóa đơn số 237
+                                                <a href="#" class="fw-bold text-dark">Đã hoàn thành</a>
+                                            </div>
+                                        </div>
+                                        <!-- End activity item-->
+                                    </div>
                                 </div>
                             </div>
+                            <!-- End Recent Activity -->
                         </div>
                     </div>
-                </div>
-                <!-- End Customers Card -->
-
-                <!-- Reports -->
-                <div class="col-12">
-                    <div class="card">
-                        <div class="filter">
-                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
-                                </li>
-
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Reports <span>/Today</span></h5>
-
-                            <!-- Line Chart -->
-                            <div id="reportsChart"></div>
-
-                            <script>
-                                document.addEventListener("DOMContentLoaded", () => {
-                                    new ApexCharts(
-                                        document.querySelector("#reportsChart"),
-                                        {
-                                            series: [
-                                                {
-                                                    name: "Sales",
-                                                    data: [31, 40, 28, 51, 42, 82, 56],
-                                                },
-                                                {
-                                                    name: "Revenue",
-                                                    data: [11, 32, 45, 32, 34, 52, 41],
-                                                },
-                                                {
-                                                    name: "Customers",
-                                                    data: [15, 11, 32, 18, 9, 24, 11],
-                                                },
-                                            ],
-                                            chart: {
-                                                height: 350,
-                                                type: "area",
-                                                toolbar: {
-                                                    show: false,
-                                                },
-                                            },
-                                            markers: {
-                                                size: 4,
-                                            },
-                                            colors: ["#4154f1", "#2eca6a", "#ff771d"],
-                                            fill: {
-                                                type: "gradient",
-                                                gradient: {
-                                                    shadeIntensity: 1,
-                                                    opacityFrom: 0.3,
-                                                    opacityTo: 0.4,
-                                                    stops: [0, 90, 100],
-                                                },
-                                            },
-                                            dataLabels: {
-                                                enabled: false,
-                                            },
-                                            stroke: {
-                                                curve: "smooth",
-                                                width: 2,
-                                            },
-                                            xaxis: {
-                                                type: "datetime",
-                                                categories: [
-                                                    "2018-09-19T00:00:00.000Z",
-                                                    "2018-09-19T01:30:00.000Z",
-                                                    "2018-09-19T02:30:00.000Z",
-                                                    "2018-09-19T03:30:00.000Z",
-                                                    "2018-09-19T04:30:00.000Z",
-                                                    "2018-09-19T05:30:00.000Z",
-                                                    "2018-09-19T06:30:00.000Z",
-                                                ],
-                                            },
-                                            tooltip: {
-                                                x: {
-                                                    format: "dd/MM/yy HH:mm",
-                                                },
-                                            },
-                                        }
-                                    ).render();
-                                });
-                            </script>
-                            <!-- End Line Chart -->
-                        </div>
-                    </div>
-                </div>
-                <!-- End Reports -->
-
-                <!-- Recent Sales -->
-<!--                <div class="col-12">-->
-<!--                    <div class="card recent-sales overflow-auto">-->
-<!--                        <div class="filter">-->
-<!--                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                                <li class="dropdown-header text-start">-->
-<!--                                    <h6>Filter</h6>-->
-<!--                                </li>-->
-
-<!--                                <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                                <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                                <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                            </ul>-->
-<!--                        </div>-->
-
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">-->
-<!--                                Recent Sales <span>| Today</span>-->
-<!--                            </h5>-->
-
-<!--                            <table class="table table-borderless datatable">-->
-<!--                                <thead>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="col">#</th>-->
-<!--                                        <th scope="col">Customer</th>-->
-<!--                                        <th scope="col">Product</th>-->
-<!--                                        <th scope="col">Price</th>-->
-<!--                                        <th scope="col">Status</th>-->
-<!--                                    </tr>-->
-<!--                                </thead>-->
-<!--                                <tbody>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row"><a href="#">#2457</a></th>-->
-<!--                                        <td>Brandon Jacob</td>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary">At praesentium minu</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$64</td>-->
-<!--                                        <td>-->
-<!--                                            <span class="badge bg-success">Approved</span>-->
-<!--                                        </td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row"><a href="#">#2147</a></th>-->
-<!--                                        <td>Bridie Kessler</td>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary">Blanditiis dolor omnis similique</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$47</td>-->
-<!--                                        <td><span class="badge bg-warning">Pending</span></td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row"><a href="#">#2049</a></th>-->
-<!--                                        <td>Ashleigh Langosh</td>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary">At recusandae consectetur</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$147</td>-->
-<!--                                        <td>-->
-<!--                                            <span class="badge bg-success">Approved</span>-->
-<!--                                        </td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row"><a href="#">#2644</a></th>-->
-<!--                                        <td>Angus Grady</td>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primar">Ut voluptatem id earum et</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$67</td>-->
-<!--                                        <td><span class="badge bg-danger">Rejected</span></td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row"><a href="#">#2644</a></th>-->
-<!--                                        <td>Raheem Lehner</td>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary">Sunt similique distinctio</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$165</td>-->
-<!--                                        <td>-->
-<!--                                            <span class="badge bg-success">Approved</span>-->
-<!--                                        </td>-->
-<!--                                    </tr>-->
-<!--                                </tbody>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- End Recent Sales -->
-
-                <!-- Top Selling -->
-<!--                <div class="col-12">-->
-<!--                    <div class="card top-selling overflow-auto">-->
-<!--                        <div class="filter">-->
-<!--                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                                <li class="dropdown-header text-start">-->
-<!--                                    <h6>Filter</h6>-->
-<!--                                </li>-->
-
-<!--                                <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                                <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                                <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                            </ul>-->
-<!--                        </div>-->
-
-<!--                        <div class="card-body pb-0">-->
-<!--                            <h5 class="card-title">Top Selling <span>| Today</span></h5>-->
-
-<!--                            <table class="table table-borderless">-->
-<!--                                <thead>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="col">Preview</th>-->
-<!--                                        <th scope="col">Product</th>-->
-<!--                                        <th scope="col">Price</th>-->
-<!--                                        <th scope="col">Sold</th>-->
-<!--                                        <th scope="col">Revenue</th>-->
-<!--                                    </tr>-->
-<!--                                </thead>-->
-<!--                                <tbody>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row">-->
-<!--                                            <a href="#"><img src="../admin/assets/img/product-1.jpg" alt="" /></a>-->
-<!--                                        </th>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas-->
-<!--                                                nulla</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$64</td>-->
-<!--                                        <td class="fw-bold">124</td>-->
-<!--                                        <td>$5,828</td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row">-->
-<!--                                            <a href="#"><img src="../admin/assets/img/product-2.jpg" alt="" /></a>-->
-<!--                                        </th>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary fw-bold">Exercitationem similique-->
-<!--                                                doloremque</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$46</td>-->
-<!--                                        <td class="fw-bold">98</td>-->
-<!--                                        <td>$4,508</td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row">-->
-<!--                                            <a href="#"><img src="../admin/assets/img/product-3.jpg" alt="" /></a>-->
-<!--                                        </th>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$59</td>-->
-<!--                                        <td class="fw-bold">74</td>-->
-<!--                                        <td>$4,366</td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row">-->
-<!--                                            <a href="#"><img src="../admin/assets/img/product-4.jpg" alt="" /></a>-->
-<!--                                        </th>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum-->
-<!--                                                error</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$32</td>-->
-<!--                                        <td class="fw-bold">63</td>-->
-<!--                                        <td>$2,016</td>-->
-<!--                                    </tr>-->
-<!--                                    <tr>-->
-<!--                                        <th scope="row">-->
-<!--                                            <a href="#"><img src="../admin/assets/img/product-5.jpg" alt="" /></a>-->
-<!--                                        </th>-->
-<!--                                        <td>-->
-<!--                                            <a href="#" class="text-primary fw-bold">Sit unde debitis delectus-->
-<!--                                                repellendus</a>-->
-<!--                                        </td>-->
-<!--                                        <td>$79</td>-->
-<!--                                        <td class="fw-bold">41</td>-->
-<!--                                        <td>$3,239</td>-->
-<!--                                    </tr>-->
-<!--                                </tbody>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- End Top Selling -->
-            </div>
-        </div>
-        <!-- End Left side columns -->
-
-        <!-- Right side columns -->
-<!--        <div class="col-lg-4">-->
-<!--            &lt;!&ndash; Recent Activity &ndash;&gt;-->
-<!--            <div class="card">-->
-<!--                <div class="filter">-->
-<!--                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                        <li class="dropdown-header text-start">-->
-<!--                            <h6>Filter</h6>-->
-<!--                        </li>-->
-
-<!--                        <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                <div class="card-body">-->
-<!--                    <h5 class="card-title">Recent Activity <span>| Today</span></h5>-->
-
-<!--                    <div class="activity">-->
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">32 min</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Quia quae rerum-->
-<!--                                <a href="#" class="fw-bold text-dark">explicabo officiis</a>-->
-<!--                                beatae-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">56 min</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Voluptatem blanditiis blanditiis eveniet-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">2 hrs</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Voluptates corrupti molestias voluptatem-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">1 day</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-info align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Tempore autem saepe-->
-<!--                                <a href="#" class="fw-bold text-dark">occaecati voluptatem</a>-->
-<!--                                tempore-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">2 days</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-warning align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Est sit eum reiciendis exercitationem-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-
-<!--                        <div class="activity-item d-flex">-->
-<!--                            <div class="activite-label">4 weeks</div>-->
-<!--                            <i class="bi bi-circle-fill activity-badge text-muted align-self-start"></i>-->
-<!--                            <div class="activity-content">-->
-<!--                                Dicta dolorem harum nulla eius. Ut quidem quidem sit quas-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End activity item&ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash; End Recent Activity &ndash;&gt;-->
-
-<!--            &lt;!&ndash; Budget Report &ndash;&gt;-->
-<!--            <div class="card">-->
-<!--                <div class="filter">-->
-<!--                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                        <li class="dropdown-header text-start">-->
-<!--                            <h6>Filter</h6>-->
-<!--                        </li>-->
-
-<!--                        <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                <div class="card-body pb-0">-->
-<!--                    <h5 class="card-title">-->
-<!--                        Budget Report <span>| This Month</span>-->
-<!--                    </h5>-->
-
-<!--                    <div id="budgetChart" style="min-height: 400px" class="echart"></div>-->
-
-<!--                    <script>-->
-<!--                        document.addEventListener("DOMContentLoaded", () => {-->
-<!--                            var budgetChart = echarts-->
-<!--                                .init(document.querySelector("#budgetChart"))-->
-<!--                                .setOption({-->
-<!--                                    legend: {-->
-<!--                                        data: ["Allocated Budget", "Actual Spending"],-->
-<!--                                    },-->
-<!--                                    radar: {-->
-<!--                                        // shape: 'circle',-->
-<!--                                        indicator: [-->
-<!--                                            {-->
-<!--                                                name: "Sales",-->
-<!--                                                max: 6500,-->
-<!--                                            },-->
-<!--                                            {-->
-<!--                                                name: "Administration",-->
-<!--                                                max: 16000,-->
-<!--                                            },-->
-<!--                                            {-->
-<!--                                                name: "Information Technology",-->
-<!--                                                max: 30000,-->
-<!--                                            },-->
-<!--                                            {-->
-<!--                                                name: "Customer Support",-->
-<!--                                                max: 38000,-->
-<!--                                            },-->
-<!--                                            {-->
-<!--                                                name: "Development",-->
-<!--                                                max: 52000,-->
-<!--                                            },-->
-<!--                                            {-->
-<!--                                                name: "Marketing",-->
-<!--                                                max: 25000,-->
-<!--                                            },-->
-<!--                                        ],-->
-<!--                                    },-->
-<!--                                    series: [-->
-<!--                                        {-->
-<!--                                            name: "Budget vs spending",-->
-<!--                                            type: "radar",-->
-<!--                                            data: [-->
-<!--                                                {-->
-<!--                                                    value: [4200, 3000, 20000, 35000, 50000, 18000],-->
-<!--                                                    name: "Allocated Budget",-->
-<!--                                                },-->
-<!--                                                {-->
-<!--                                                    value: [-->
-<!--                                                        5000, 14000, 28000, 26000, 42000, 21000,-->
-<!--                                                    ],-->
-<!--                                                    name: "Actual Spending",-->
-<!--                                                },-->
-<!--                                            ],-->
-<!--                                        },-->
-<!--                                    ],-->
-<!--                                });-->
-<!--                        });-->
-<!--                    </script>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash; End Budget Report &ndash;&gt;-->
-
-<!--            &lt;!&ndash; Website Traffic &ndash;&gt;-->
-<!--            <div class="card">-->
-<!--                <div class="filter">-->
-<!--                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                        <li class="dropdown-header text-start">-->
-<!--                            <h6>Filter</h6>-->
-<!--                        </li>-->
-
-<!--                        <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                <div class="card-body pb-0">-->
-<!--                    <h5 class="card-title">Website Traffic <span>| Today</span></h5>-->
-
-<!--                    <div id="trafficChart" style="min-height: 400px" class="echart"></div>-->
-
-<!--                    <script>-->
-<!--                        document.addEventListener("DOMContentLoaded", () => {-->
-<!--                            echarts-->
-<!--                                .init(document.querySelector("#trafficChart"))-->
-<!--                                .setOption({-->
-<!--                                    tooltip: {-->
-<!--                                        trigger: "item",-->
-<!--                                    },-->
-<!--                                    legend: {-->
-<!--                                        top: "5%",-->
-<!--                                        left: "center",-->
-<!--                                    },-->
-<!--                                    series: [-->
-<!--                                        {-->
-<!--                                            name: "Access From",-->
-<!--                                            type: "pie",-->
-<!--                                            radius: ["40%", "70%"],-->
-<!--                                            avoidLabelOverlap: false,-->
-<!--                                            label: {-->
-<!--                                                show: false,-->
-<!--                                                position: "center",-->
-<!--                                            },-->
-<!--                                            emphasis: {-->
-<!--                                                label: {-->
-<!--                                                    show: true,-->
-<!--                                                    fontSize: "18",-->
-<!--                                                    fontWeight: "bold",-->
-<!--                                                },-->
-<!--                                            },-->
-<!--                                            labelLine: {-->
-<!--                                                show: false,-->
-<!--                                            },-->
-<!--                                            data: [-->
-<!--                                                {-->
-<!--                                                    value: 1048,-->
-<!--                                                    name: "Search Engine",-->
-<!--                                                },-->
-<!--                                                {-->
-<!--                                                    value: 735,-->
-<!--                                                    name: "Direct",-->
-<!--                                                },-->
-<!--                                                {-->
-<!--                                                    value: 580,-->
-<!--                                                    name: "Email",-->
-<!--                                                },-->
-<!--                                                {-->
-<!--                                                    value: 484,-->
-<!--                                                    name: "Union Ads",-->
-<!--                                                },-->
-<!--                                                {-->
-<!--                                                    value: 300,-->
-<!--                                                    name: "Video Ads",-->
-<!--                                                },-->
-<!--                                            ],-->
-<!--                                        },-->
-<!--                                    ],-->
-<!--                                });-->
-<!--                        });-->
-<!--                    </script>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash; End Website Traffic &ndash;&gt;-->
-
-<!--            &lt;!&ndash; News & Updates Traffic &ndash;&gt;-->
-<!--            <div class="card">-->
-<!--                <div class="filter">-->
-<!--                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>-->
-<!--                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">-->
-<!--                        <li class="dropdown-header text-start">-->
-<!--                            <h6>Filter</h6>-->
-<!--                        </li>-->
-
-<!--                        <li><a class="dropdown-item" href="#">Today</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Month</a></li>-->
-<!--                        <li><a class="dropdown-item" href="#">This Year</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-<!--                <div class="card-body pb-0">-->
-<!--                    <h5 class="card-title">-->
-<!--                        News &amp; Updates <span>| Today</span>-->
-<!--                    </h5>-->
-
-<!--                    <div class="news">-->
-<!--                        <div class="post-item clearfix">-->
-<!--                            <img src="../admin/assets/img/news-1.jpg" alt="" />-->
-<!--                            <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>-->
-<!--                            <p>-->
-<!--                                Sit recusandae non aspernatur laboriosam. Quia enim-->
-<!--                                eligendi sed ut harum...-->
-<!--                            </p>-->
-<!--                        </div>-->
-
-<!--                        <div class="post-item clearfix">-->
-<!--                            <img src="../admin/assets/img/news-2.jpg" alt="" />-->
-<!--                            <h4><a href="#">Quidem autem et impedit</a></h4>-->
-<!--                            <p>-->
-<!--                                Illo nemo neque maiores vitae officiis cum eum turos elan-->
-<!--                                dries werona nande...-->
-<!--                            </p>-->
-<!--                        </div>-->
-
-<!--                        <div class="post-item clearfix">-->
-<!--                            <img src="../admin/assets/img/news-3.jpg" alt="" />-->
-<!--                            <h4>-->
-<!--                                <a href="#">Id quia et et ut maxime similique occaecati ut</a>-->
-<!--                            </h4>-->
-<!--                            <p>-->
-<!--                                Fugiat voluptas vero eaque accusantium eos. Consequuntur-->
-<!--                                sed ipsam et totam...-->
-<!--                            </p>-->
-<!--                        </div>-->
-
-<!--                        <div class="post-item clearfix">-->
-<!--                            <img src="../admin/assets/img/news-4.jpg" alt="" />-->
-<!--                            <h4><a href="#">Laborum corporis quo dara net para</a></h4>-->
-<!--                            <p>-->
-<!--                                Qui enim quia optio. Eligendi aut asperiores enim-->
-<!--                                repellendusvel rerum cuder...-->
-<!--                            </p>-->
-<!--                        </div>-->
-
-<!--                        <div class="post-item clearfix">-->
-<!--                            <img src="../admin/assets/img/news-5.jpg" alt="" />-->
-<!--                            <h4>-->
-<!--                                <a href="#">Et dolores corrupti quae illo quod dolor</a>-->
-<!--                            </h4>-->
-<!--                            <p>-->
-<!--                                Odit ut eveniet modi reiciendis. Atque cupiditate libero-->
-<!--                                beatae dignissimos eius...-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    &lt;!&ndash; End sidebar recent posts&ndash;&gt;-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash; End News & Updates &ndash;&gt;-->
-<!--        </div>-->
-        <!-- End Right side columns -->
-    </div>
-</section>
+                </section>
+                dashboard.html
+                24 KB
+                1
