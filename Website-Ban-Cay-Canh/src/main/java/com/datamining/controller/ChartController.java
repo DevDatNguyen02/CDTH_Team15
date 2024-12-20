@@ -30,10 +30,10 @@ public class ChartController {
 
     @RequestMapping("/admin/statistical")
     public String statistical(Model model, @RequestParam("year") Integer year) {
-        List<ChartRadar> radar = radarDAO.getCategories(year);
-        model.addAttribute("radar", radar);
         List<Charts> chart_data = chartsDAO.getValue(year);
         model.addAttribute("chart_data", chart_data);
+        List<ChartRadar> radar = radarDAO.getCategories(year);
+        model.addAttribute("radar", radar);
         return "../static/admin/charts-chartjs";
     }
 
