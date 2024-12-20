@@ -460,15 +460,15 @@
   let monthChart = [], valueChart = [], order_value = [], cate_name = [], value_cate = [],  pro_count = [];
 
   /*[# th:each="data : ${chart_data}"]*/
-  monthChart.push(/*[[${data.date}]]*/);
   valueChart.push(/*[[${data.value}]]*/);
   order_value.push(/*[[${data.count}]]*/);
+  monthChart.push(/*[[${data.date}]]*/);
   /*[/]*/
 
   /*[# th:each="radar : ${radar}"]*/
-  cate_name.push(/*[[${radar.name_cate}]]*/);
-  value_cate.push(/*[[${radar.value_radar}]]*/);
   pro_count.push(/*[[${radar.count_radar}]]*/)
+  value_cate.push(/*[[${radar.value_radar}]]*/);
+  cate_name.push(/*[[${radar.name_cate}]]*/);
   /*[/]*/
 
 </script>
